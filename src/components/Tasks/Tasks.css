@@ -1,0 +1,48 @@
+.Tasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.Task {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    height: 6.5vh;
+    background-color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.task-content {
+    position: absolute;
+    margin-left: 15px;
+}
+
+.buttons {
+    border: none;
+}
+
+.ok {
+    background-color: rgb(146, 222, 243);
+    border: none;
+    height: 6.5vh;
+    width: 4vw;
+}
+
+.icon2 {
+    font-size: 20px;
+}
+
+.delete {
+    background-color: rgb(255, 78, 78);
+    border: none;
+    height: 6.5vh;
+    width: 4vw;
+}
+
+.icon3 {
+    font-size: 20px;
+}
